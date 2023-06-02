@@ -1,0 +1,11 @@
+commonJS modules:
+module.exports=someFunction;
+const func=require("./somefile.js")
+
+
+ES6 modules:
+export {person,p1,Person};
+import {p1,person,Person} from "./person.js";
+
+
+.cjs and .mjs for commonJS and ES modules respectively.

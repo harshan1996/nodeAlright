@@ -1,0 +1,19 @@
+{
+  "name": "node.js-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node http.js",
+    "dev": "nodemon http.js"
+  },
+  "author": "harshan gak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
